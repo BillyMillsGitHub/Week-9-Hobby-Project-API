@@ -1,5 +1,5 @@
 # Week-9-Hobby-Project-API
-This github repository will store all documentation for my Week 9 Project.
+This github repository will store all documentation for my Week 9 Hobby Project.
 
 This project consists of creating a fully functional API from scratch. This must be inclusive of a well presented and readable front end, a back end database with full CRUD functionality integration to the front end.
 
