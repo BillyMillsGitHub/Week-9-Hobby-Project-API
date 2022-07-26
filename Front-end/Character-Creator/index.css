@@ -1,0 +1,36 @@
+h1{
+    font-size: 50px;
+    color: rgb(22, 123, 255);
+}
+
+li1{
+    font-size: larger;
+    color:rgb(25, 0, 255)
+}
+
+li2{
+    font-size: larger;
+    color:rgb(177, 126, 18)
+}
+
+li3{
+    font-size: larger;
+    color:rgb(255, 0, 98)
+}
+
+p{
+    position:sticky;
+}
+
+h3{
+    color: salmon;
+}
+
+
+button {
+    color: red;
+}
+
+input {
+    color:green
+}
