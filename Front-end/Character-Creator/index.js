@@ -56,6 +56,8 @@ function renderCharacterCreator() {
 
               
                 const characterCreatorSpecialAbility = document.createElement("p");
+                characterCreatorSpecialAbility.setAttribute("required","");
+                characterCreatorSpecialAbility.id = "specialAbility";
                 characterCreatorSpecialAbility.innerText = "Special Ability: " + characterCreator.specialAbility;
                 characterCreatorDiv.appendChild(characterCreatorSpecialAbility);
 
@@ -127,11 +129,18 @@ const updateCharacterCreator = (id) => {
                 renderCharacterCreator();
             }).catch(err => console.log(err));
     
-}
 
+
+// const specialAbility = document.querySelector("#specialAbility");
+//     axios.patch("http://localhost:8080/updateCharacterCreator/" + id + "?specialAbility=" + specialAbility)
+//             .then(res => {
+//                 console.log("Update successful");
+//                 renderCharacterCreator();
+//             }).catch(err => console.log(err));
 
 //   "name", "#specialAbility", "#power", "#health", "#attack", "#defence", "#agility", "#intelligence")
 
 
     
 
+        }

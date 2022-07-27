@@ -32,5 +32,14 @@ button {
 }
 
 input {
-    color:green
+    color:green;
+}
+
+
+h1 {
+    background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+  }
+
+img {
+ 
 }

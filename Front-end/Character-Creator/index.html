@@ -10,7 +10,12 @@
         integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link href="./index.css" rel="stylesheet">
+<style>
 
+    body{
+        background-color:lightblue;
+    }
+</style>
 </head>
 
 <body>
@@ -43,11 +48,12 @@
             <legend><span class="text"></span> Enter new character details below</legend>
 
 </form>
-            <label for="characterCreatorName">Name:</label>	
+<h4>
+            <label for="characterCreatorName">Name:</label>
             <input type="text" name="name" placeholder="Name" required>
             <br>
             <label for="characterCreatorSpecialAbility">Special Ability:</label>
-            <input type="text" name="specialAbility" placeholder="SpecialAbility" required>
+            <input type="text" name="specialAbility" placeholder="Special Ability" required>
             <br>
             <label for="characterCreatorPower">Power:</label>
             <input type="text" name="power" placeholder="Power" min="0" required>
@@ -69,12 +75,13 @@
             <br>
             <button type="reset">Reset</button>
             <input type="submit" onclick="return confirm('Ready to create your character?')" />
-
+</h4>
         </fieldset>
 
      
         
     <h3 class="center">The results for your newly created character will be displayed below:</h3>
+    <h4 class="center"> If you wish to update any of the attributes, then you can change them in the section below.</h4>
 
 
     </form>
@@ -85,8 +92,8 @@
 <br>
 <br>
 <br>
-<p>Time flies when playing role-playing games! Press the button below to find out what the time is.</p> --> 
-<button onclick="getElementById('demo').innerHTML=Date()">What is the time?</button> 
+<p>Time flies when playing role-playing games! Press the button below to find out what the time and date is.</p> --> 
+<button onclick="getElementById('demo').innerHTML=Date()">Time and date is..</button> 
 
 <p id="demo">The time is...!</p>
 
