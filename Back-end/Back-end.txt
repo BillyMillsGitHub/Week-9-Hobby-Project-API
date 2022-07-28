@@ -1,1 +1,0 @@
-This file is stored within the front-end branch so that it isn't left empty.
