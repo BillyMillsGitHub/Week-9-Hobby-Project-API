@@ -15,7 +15,7 @@ public class CharacterCreator {
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // AI
 	private Integer id;
 	
-	@Column(name = "CharacterCreatorName", nullable = false, unique = true)
+//	@Column(name = "CharacterCreatorName", nullable = false, unique = true)
 	private String name;
 	
 	private String specialAbility;
@@ -146,26 +146,7 @@ public class CharacterCreator {
 				+ ", intelligence=" + intelligence + "]";
 	}
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(agility, attack, defence, health, id, intelligence, name, power, specialAbility);
-	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		CharacterCreator other = (CharacterCreator) obj;
-		return Objects.equals(agility, other.agility) && Objects.equals(attack, other.attack)
-				&& Objects.equals(defence, other.defence) && Objects.equals(health, other.health)
-				&& Objects.equals(id, other.id) && Objects.equals(intelligence, other.intelligence)
-				&& Objects.equals(name, other.name) && Objects.equals(power, other.power)
-				&& Objects.equals(specialAbility, other.specialAbility);
-	}
 	
 
 }

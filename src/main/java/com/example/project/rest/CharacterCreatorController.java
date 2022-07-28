@@ -37,10 +37,10 @@ public class CharacterCreatorController {
 	}
 
 	@GetMapping("/getCharacterCreatorById/{id}")
-	public ResponseEntity<CharacterCreator> getById(@PathVariable int id) {
-		return new ResponseEntity<CharacterCreator>(this.service.getById(id), HttpStatus.OK);
-//	public CharacterCreator getById(@PathVariable int id) {
-//		return this.service.getById(id);
+//	public ResponseEntity<CharacterCreator> getById(@PathVariable int id) {
+//		return new ResponseEntity<CharacterCreator>(this.service.getById(id), HttpStatus.OK);
+	public CharacterCreator getById(@PathVariable int id) {
+		return this.service.getById(id);
 
 }
 

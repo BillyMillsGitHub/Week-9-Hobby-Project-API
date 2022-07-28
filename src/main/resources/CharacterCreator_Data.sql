@@ -1,7 +1,7 @@
-INSERT INTO `characterCreator` (
+INSERT INTO `character_Creator` (
 	`id`,
-	`CharacterCreatorName`,
-	`specialAbility`,
+	`name`,
+	`special_Ability`,
 	`power`,
 	`health`,
     `attack`,
